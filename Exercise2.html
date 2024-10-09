@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 2</title>
+</head>
+<body>
+    <script>
+        let login = prompt("Who are you?", "");
+        let message =
+            (login === "director") ? "greeting" :
+                (login === "employee") ? "hello" :
+                    (login ===  "") ? "cancel" : "..."
+        document.write(message);
+    </script>
+</body>
+</html>
